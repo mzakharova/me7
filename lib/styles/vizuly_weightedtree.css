@@ -38,7 +38,6 @@ div.vz-weighted_tree-viz {
 /******** TEST CONTAINER **********/
 
 svg.vz-weighted_tree-viz {
-    margin:100px 0 0 0;
 	fill:none;
     font-family:Roboto;
 }
@@ -53,7 +52,6 @@ div.radial_container {
 #viz_container {
     border-radius:6px;
 	position: relative;
-	overflow: hidden
 }
 
 svg.vz-weighted_tree-viz {

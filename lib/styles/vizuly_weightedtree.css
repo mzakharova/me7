@@ -58,7 +58,7 @@ svg.vz-weighted_tree-viz {
 fill:none;
 font-family:Roboto;
 pointer-events:visible;
-	padding:150px;
+	padding:100%;
 	width: 100%;
 	height: 100%;
 	position: relative;

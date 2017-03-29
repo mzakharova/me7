@@ -68,6 +68,7 @@ circle.vz-radial_progress-back-circle {
 
 svg.vizuly {
     fill:none;
+    padding-top:2000px;
 }
 
 div.radial_container {
@@ -86,6 +87,5 @@ div.radial_container {
             #202020
     );
     border-radius:6px;
-    padding-top:2000px;
 }
 

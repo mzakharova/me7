@@ -47,16 +47,15 @@ div.radial_container {
     position: relative;
     top: 100%;
     transform: translateY(-50%);
+}
+
+#viz_container {
+    border-radius:6px;
 	width: 100%;
 	display: block;
 	height: auto;
 	position: relative;
 	padding-top: 100%;
-}
-
-#viz_container {
-    border-radius:6px;
-	position: relative;
 }
 
 svg.vz-weighted_tree-viz {

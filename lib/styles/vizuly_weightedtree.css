@@ -48,7 +48,8 @@ div.radial_container {
     position: relative;
     top: 100%;
     transform: translateY(-50%);
-	margin-top: calc( 50vw * .2 );
+	margin-top: 100px;
+	padding-top: 100px;
 }
 
 #viz_container {

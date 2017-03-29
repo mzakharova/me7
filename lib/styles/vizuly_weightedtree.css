@@ -62,6 +62,6 @@ fill:none;
 font-family:Roboto;
 pointer-events:visible;
 margin: 50px 0 0 0;
-	margin-top: calc( 50vw * .2 );
 	padding-top: 100px;
+	overflow:hidden;
 }

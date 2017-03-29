@@ -46,8 +46,8 @@ svg.vz-weighted_tree-viz {
 div.radial_container {
     float:left;
     position: relative;
-    top: 100px;
-    transform: translateY(-50px);
+    top: 50%;
+    transform: translateY(-30%);
 }
 
 #viz_container {

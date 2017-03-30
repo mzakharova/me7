@@ -64,4 +64,5 @@ pointer-events:visible;
 	position: relative;
 	overflow:visible;
 	padding-top: 120px;
+	viewBox="0 0 200 300";
 }

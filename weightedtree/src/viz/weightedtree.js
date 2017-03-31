@@ -359,7 +359,9 @@ vizuly.viz.weighted_tree = function (parent) {
         if (size.height/2 + maxY > h) h = size.height/2 + maxY + tree.nodeSize()[0];
 
         svg.transition().duration(scope.duration).style("height",h + "px").style("width",w + "px");
+        console.log('transition');
 
+     
         //Now determine how far above the fold this minY is
         var offsetY = Math.max(0,-minY  - size.height/2) + tree.nodeSize()[0]/2;
 

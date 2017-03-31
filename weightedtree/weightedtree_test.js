@@ -238,6 +238,7 @@ function changeSize(val) {
     viz_container.transition().duration(300).style('width', s[0] + 'px').style('height', s[1] + 'px');
     viz.width(s[0]).height(s[1]*.8).update();
     document.getElementsByClassName('vz-weighted_tree-viz')[0].setAttribute('viewBox','0 0 '+s[0]+' '+s[1]);
+    console.log('Called');
 }
 
 //This sets the same value for each radial progress

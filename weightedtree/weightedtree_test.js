@@ -121,7 +121,7 @@ function prepData(csv) {
 function initialize() {
 
 
-    viz = vizuly.viz.weighted_tree(document.getElementById("viz_container"));
+    viz = vizuly.viz.weighted_tree(document.body);
 
 
     //Here we create three vizuly themes for each radial progress component.

@@ -359,8 +359,7 @@ vizuly.viz.weighted_tree = function (parent) {
         if (size.height/2 + maxY > h) h = size.height/2 + maxY + tree.nodeSize()[0];
 
         svg.transition().duration(scope.duration).style("height",h + "px").style("width",w + "px");
-        console.log('transition');
-        var viewBox = "0 0 " + h + " " + w;
+        var viewBox = "0 0 " + w + " " + h;
         svg.attr('viewBox',viewBox);
 
      

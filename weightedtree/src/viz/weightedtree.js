@@ -360,6 +360,8 @@ vizuly.viz.weighted_tree = function (parent) {
 
         svg.transition().duration(scope.duration).style("height",h + "px").style("width",w + "px");
         console.log('transition');
+        var viewBox = "0 0 " + h + " " + w;
+        svg.attr('viewBox',viewBox);
 
      
         //Now determine how far above the fold this minY is

@@ -358,9 +358,9 @@ vizuly.viz.weighted_tree = function (parent) {
         // we need to make the height bigger.  i.e.  If expanded node is below the root node and it expands beyond the bottom of the screen.
         if (size.height/2 + maxY > h) h = size.height/2 + maxY + tree.nodeSize()[0];
 
-        svg.transition().duration(scope.duration).style("height",h + "px").style("width",w + "px");
         var viewBox = "0 0 " + w + " " + h;
-        svg.attr('viewBox',viewBox);
+        svg.transition().duration(scope.duration).style("height",h + "px").style("width",w + "px").attr("viewBox",viewBox);
+        //svg.attr('viewBox',viewBox);
 
      
         //Now determine how far above the fold this minY is

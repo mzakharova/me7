@@ -42,11 +42,11 @@ var theme;
 var data = {};
 
 // stores the currently selected value field
-var valueField = "Total budget";
-var valueFields = ["Total budget", "Field1", "Field2"];
+var valueField = "Federal";
+var valueFields = ["Federal", "State", "Local"];
 
 
-var formatCurrency = function (d) { if (isNaN(d)) d = 0; return "£" + d3.format(",.2f")(d) + " Million"; };
+var formatCurrency = function (d) { if (isNaN(d)) d = 0; return "$" + d3.format(",.2f")(d) + " Billion"; };
 
 function loadData() {
 
@@ -121,7 +121,7 @@ function prepData(csv) {
 function initialize() {
 
 
-    viz = vizuly.viz.weighted_tree(document.body);
+    viz = vizuly.viz.weighted_tree(document.getElementById("viz_container"));
 
 
     //Here we create three vizuly themes for each radial progress component.
@@ -133,7 +133,7 @@ function initialize() {
     //Here we set some bases line properties for all three components.
     viz.data(data)                                                      // Expects hierarchical array of objects.
         .width(600)                                                     // Width of component
-        .height(10)                                                    // Height of component
+        .height(600)                                                    // Height of component
         .children(function (d) { return d.values })                     // Denotes the property that holds child object array
         .key(function (d) { return d.id })                              // Unique key
         .value(function (d) {
@@ -159,7 +159,7 @@ function initialize() {
 
 
 function trimLabel(label) {
-   return (String(label).length > 30) ? String(label).substr(0, 17) + "..." : label;
+   return (String(label).length > 20) ? String(label).substr(0, 17) + "..." : label;
 }
 
 
@@ -235,7 +235,7 @@ function changeSkin(val) {
 //This changes the size of the component by adjusting the radius and width/height;
 function changeSize(val) {
     var s = String(val).split(",");
-    viz_container.transition().duration(300).style('width', s[0] + 'px').style('height', s[1] + 'px');
+    viz_container.transition().duration(300).style('width', s[0] + 'px').style('height', /*s[1] + */'');
     viz.width(s[0]).height(s[1]*.8).update();
 }
 

@@ -68,15 +68,12 @@ circle.vz-radial_progress-back-circle {
 
 svg.vizuly {
     fill:none;
-    overflow:visible;
-    position:relative;
-    
 }
 
 div.radial_container {
     float:left;
     position: relative;
-    top: 10%;
+    top: 45%;
     transform: translateY(-50%);
 }
 

@@ -32,8 +32,6 @@ body {
 
 #viz_container {
     margin:0px auto;
-    width:100%;
-    height:600px;
     padding-top:0px;
     border-radius:6px;
 }

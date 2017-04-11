@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- saved from url=(0016)http://localhost -->
 <html>
 <head>
     <meta charset="utf-8">
@@ -25,7 +24,7 @@
     <!-- D3.js ... of course! -->
     <script src="lib/d3.min.js"></script>
 
-    <!-- debug source scripts: start --> <!--
+    <!-- debug source scripts: start --> 
     <script src="src/namespace/namespace.js"></script>
     <script src="src/viz/_viz.js"></script>
 
@@ -43,7 +42,7 @@
     <script src="src/viz/weightedtree.js"></script>
     <script src="src/theme/weightedtree.js"></script>
 
-    --> <!-- debug source scripts: end -->
+    <!-- debug source scripts: end -->
 
     <script src="lib/vizuly_core.min.js"></script>
 	<script src="lib/vizuly_weightedtree.min.js"></script>
@@ -83,8 +82,12 @@
 </div>
 
 <!-- Our main content container-->
-<div style="margin-left:0px; height:0px; width:90%; margin:0px auto; margin-top:20px; font-family:Raleway; font-size:12px;">
-    When politicians talk about “spending” have you ever wanted to know where your tax pounds actually go? This visualization shows you how congress allocates expenditures across three government levels (Federal, State, and Local.) The thicker the line, the more that is being spent.
+<div class="container" style="width:100%">
+    <div id="viz_container" class="z-depth-3">
+    </div>
+    <div style="margin-left:0px; height:0px; width:90%; margin:0px auto; margin-top:20px; font-family:Raleway; font-size:14px;">
+        When politicians talk about “spending” have you ever wanted to know where your tax dollars actually go? This visualization shows you how congress allocates expenditures across three government levels (Federal, State, and Local.) The thicker the line, the more that is being spent.
+    </div>
 </div>
 
 
@@ -123,8 +126,8 @@
 
         // Set the size of our container element.
         viz_container = d3.selectAll("#viz_container")
-                .style("width", screenWidth + "px")
-                .style("height", screenHeight + "px");
+                .style("width", screenWidth + "px");/*
+                .style("height", screenHeight + "px");*/
 
 
         loadData();

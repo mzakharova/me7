@@ -1,4 +1,4 @@
-Category,Level1,Level2,Level3,Level4,Federal,,GovXFer,State,Local,Total
+Category,Level1,Level2,Level3,Level4,Total budget,,GovXFer,Field1,Field2,Total
 Innovation and Instructional Teams,Public Services,Health,Resource DEL,NHS,105000,b,,,,105000
 Innovation and Instructional Teams,Public Services,Health,Resource DEL,Remaining budget,13400,b,,,,13400
 English Learner Education,Public Services,Health,Capital DEL,,5810,b,,,,5810
@@ -45,7 +45,7 @@ Gallaudet University,Public Services,DCMS,Resource AME,Museums and Galleries spo
 Higher Education,Public Services,DCMS,Resource AME,Other,43.429,b,,,,43.429
 Higher Education,Public Services,DCMS,Capital AME,BBC and other broadcasting sponsored bodies,116.743,b,,,,116.743
 Higher Education,Public Services,DCMS,Capital AME,Lottery Grants,447.593,b,,,,447.593
-Special Benefits,Central Government,Cabinet Office,Resource DEL,Support the Prime Minister and Cabinet to deliver the Governmentâ€™s programme,43,b,,4,3,43
+Special Benefits,Central Government,Cabinet Office,Resource DEL,Support the Prime Minister and Cabinet to deliver the Government’s programme,43,b,,4,3,43
 Foreign Service Retirement and Disability Fund,Central Government,Cabinet Office,Resource DEL,Driving efficiencies and reforms that make government work better,235,b,,,,235
 Armed Forces Retirement Home,Central Government,Cabinet Office,Resource DEL,Building a stronger civil society,266,b,,,,266
 Military Retirement Fund,Central Government,Cabinet Office,Resource DEL,Create a more united democracy,29,b,,,,29

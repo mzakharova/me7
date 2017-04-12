@@ -44,6 +44,8 @@ vizuly.viz.weighted_tree = function (parent) {
         "value" : null,             // Radius value of the nodes and line weights;
         "branchPadding": -1,         // Determines vertical branch spacing as ratio of height - defaults to automatic adjustment
         "fixedSpan" : -1,           // Determines horizontal branch spacing as ratio of height - defaults to automatic adjustment
+        "heightAdjust" : 40,        // HD for SU - adds height to allow for larger nodes
+        "treeVerticalAdjust" : 20,  // HD for SU - moves tree down
         "label" : function (d,i)    // Default function used to render center label
         { return d; }
     };
@@ -352,7 +354,7 @@ vizuly.viz.weighted_tree = function (parent) {
         var maxX=d3.max(nodes,function (d) {return d.depth }) * depthSpan;              // max x position
         var h = Math.max(scope.height,maxY - minY + size.top);   // calc height
         var w = Math.max(scope.width,maxX + scope.width *.2 + size.left);               // calc width;
-
+h+=scope.heightAdjust;
 
         // if the span between minY and maxY is less than the total height, but maxY + half the height is MORE than the total height
         // we need to make the height bigger.  i.e.  If expanded node is below the root node and it expands beyond the bottom of the screen.
@@ -362,7 +364,7 @@ vizuly.viz.weighted_tree = function (parent) {
 
         //Now determine how far above the fold this minY is
         var offsetY = Math.max(0,-minY  - size.height/2) + tree.nodeSize()[0]/2;
-
+offsetY+=scope.heightAdjust/2+scope.treeVerticalAdjust;
         // Normalize for fixed-depth.
         nodes.forEach(function(d) {
             // if (tree.nodeSize()) d.x= d.x + size.height/2;

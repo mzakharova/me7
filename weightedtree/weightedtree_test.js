@@ -245,11 +245,7 @@ function changeData(val) {
     viz.update();
 }
 
-svg.vz-weighted_tree-viz {
-fill:none;
-font-family:Roboto;
-pointer-events:visible;
-}
+
 
 
 

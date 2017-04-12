@@ -184,7 +184,7 @@ function createDataTip(x,y,h1,h2,h3) {
         .append("div")
         .attr("class", "vz-weighted_tree-tip")
         .style("position", "absolute")
-        .style("middle", y + "px")
+        .style("top", y + "px")
         .style("left", (x - 125) + "px")
         .style("opacity",0)
         .html(html)
@@ -194,7 +194,7 @@ function createDataTip(x,y,h1,h2,h3) {
 
 function onMeasure() {
    // Allows you to manually override vertical spacing
-   // viz.tree().nodeSize([100,0]);
+   viz.tree().nodeSize([50,0]);
 }
 
 function onMouseOver(e,d,i) {

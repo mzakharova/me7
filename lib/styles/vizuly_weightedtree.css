@@ -1,7 +1,7 @@
 /*****  DEFAULTS ******/
 
 div.vz-weighted_tree-viz {
-    overflow:scroll;
+/*    overflow:scroll;*/
 }
 
 
@@ -38,31 +38,18 @@ div.vz-weighted_tree-viz {
 /******** TEST CONTAINER **********/
 
 svg.vz-weighted_tree-viz {
-	fill:none;
+    fill:none;
     font-family:Roboto;
 }
 
 div.radial_container {
     float:left;
     position: relative;
-    top: 100%;
+    top: 45%;
     transform: translateY(-50%);
 }
 
 #viz_container {
     border-radius:6px;
-	width: 100%;
-	display: block;
-	height: 100%;
-	position: relative;
 }
 
-svg.vz-weighted_tree-viz {
-fill:none;
-font-family:Roboto;
-pointer-events:visible;
-	position: relative;
-	overflow:visible;
-	padding-top: 120px;
-	viewBox="0 0 200 300";
-}

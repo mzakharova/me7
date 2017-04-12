@@ -235,7 +235,7 @@ function changeSkin(val) {
 //This changes the size of the component by adjusting the radius and width/height;
 function changeSize(val) {
     var s = String(val).split(",");
-    viz_container.transition().duration(300).style('width', s[0] + 'px').style('height', /*s[1] + */'');
+    viz_container.transition().duration(300).style('width', s[0] + 'px').style('height', s[1] + 'px');
     viz.width(s[0]).height(s[1]*1.5).update();
 }
 

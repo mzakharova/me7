@@ -159,7 +159,7 @@ function initialize() {
 
 
 function trimLabel(label) {
-   return (String(label).length > 20) ? String(label).substr(0, 17) + "..." : label;
+   return (String(label).length > 30) ? String(label).substr(0, 17) + "..." : label;
 }
 
 
@@ -194,7 +194,7 @@ function createDataTip(x,y,h1,h2,h3) {
 
 function onMeasure() {
    // Allows you to manually override vertical spacing
-   viz.tree().nodeSize([45,0]);
+   viz.tree().nodeSize([45,10]);
 }
 
 function onMouseOver(e,d,i) {

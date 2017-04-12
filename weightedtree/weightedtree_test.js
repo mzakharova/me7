@@ -236,7 +236,7 @@ function changeSkin(val) {
 function changeSize(val) {
     var s = String(val).split(",");
     viz_container.transition().duration(300).style('width', s[0] + 'px').style('height', /*s[1] + */'');
-    viz.width(s[0]).height(s[1]*.2).update();
+    viz.width(s[0]).height(s[1]*1.5).update();
 }
 
 //This sets the same value for each radial progress

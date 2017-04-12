@@ -46,7 +46,7 @@ var valueField = "Federal";
 var valueFields = ["Federal", "State", "Local"];
 
 
-var formatCurrency = function (d) { if (isNaN(d)) d = 0; return "£" + d3.format(",.2f")(d) + " Billion"; };
+var formatCurrency = function (d) { if (isNaN(d)) d = 0; return "£" + d3.format(",.2f")(d) + " Million"; };
 
 function loadData() {
 
@@ -159,7 +159,7 @@ function initialize() {
 
 
 function trimLabel(label) {
-   return (String(label).length > 30) ? String(label).substr(0, 17) + "..." : label;
+   return (String(label).length > 35) ? String(label).substr(0, 17) + "..." : label;
 }
 
 

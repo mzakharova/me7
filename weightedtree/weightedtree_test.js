@@ -194,7 +194,7 @@ function createDataTip(x,y,h1,h2,h3) {
 
 function onMeasure() {
    // Allows you to manually override vertical spacing
-   viz.tree().nodeSize([35,0]);
+   viz.tree().nodeSize([45,0]);
 }
 
 function onMouseOver(e,d,i) {

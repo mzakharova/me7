@@ -184,7 +184,7 @@ function createDataTip(x,y,h1,h2,h3) {
         .append("div")
         .attr("class", "vz-weighted_tree-tip")
         .style("position", "absolute")
-        .style("top", y + "px")
+        .style("middle", y + "px")
         .style("left", (x - 125) + "px")
         .style("opacity",0)
         .html(html)

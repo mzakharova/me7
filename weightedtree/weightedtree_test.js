@@ -42,8 +42,8 @@ var theme;
 var data = {};
 
 // stores the currently selected value field
-var valueField = "Spending";
-var valueFields = ["Spending", "State", "Local"];
+var valueField = "Federal";
+var valueFields = ["Federal", "State", "Local"];
 
 
 var formatCurrency = function (d) { if (isNaN(d)) d = 0; return "£" + d3.format(",.2f")(d) + " Million"; };

@@ -159,7 +159,7 @@ function initialize() {
 
 
 function trimLabel(label) {
-   return (String(label).length > 35) ? String(label).substr(0, 17) + "..." : label;
+   return (String(label).length > 35) ? String(label).substr(0, 30) + "..." : label;
 }
 
 

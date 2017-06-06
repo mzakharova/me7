@@ -42,7 +42,7 @@ var theme;
 var data = {};
 
 // stores the currently selected value field
-var valueField = "Federal";
+var valueField = "Spending";
 var valueFields = ["Federal", "State", "Local"];
 
 

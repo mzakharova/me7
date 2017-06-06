@@ -88,3 +88,9 @@ div.radial_container {
     border-radius:6px;
 }
 
+
+svg.vz-weighted_tree-viz {
+fill:none;
+font-family:Roboto;
+pointer-events:visible;
+}

@@ -40,7 +40,6 @@ div.vz-weighted_tree-viz {
 svg.vz-weighted_tree-viz {
     fill:none;
     font-family:Roboto;
-pointer-events:visible;
 }
 
 div.radial_container {

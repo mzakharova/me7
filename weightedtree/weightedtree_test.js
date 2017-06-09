@@ -46,7 +46,7 @@ var valueField = "Federal";
 var valueFields = ["Federal", "State", "Local"];
 
 
-var formatCurrency = function (d) { if (isNaN(d)) d = 0; return "$" + d3.format(",.2f")(d) + " Billion"; };
+var formatCurrency = function (d) { if (isNaN(d)) d = 0; return "£" + d3.format(",.2f")(d) + " Million"; };
 
 function loadData() {
 
@@ -159,7 +159,7 @@ function initialize() {
 
 
 function trimLabel(label) {
-   return (String(label).length > 20) ? String(label).substr(0, 17) + "..." : label;
+   return (String(label).length > 35) ? String(label).substr(0, 17) + "..." : label;
 }
 
 
@@ -194,7 +194,7 @@ function createDataTip(x,y,h1,h2,h3) {
 
 function onMeasure() {
    // Allows you to manually override vertical spacing
-   // viz.tree().nodeSize([100,0]);
+   viz.tree().nodeSize([50,0]);
 }
 
 function onMouseOver(e,d,i) {
@@ -235,8 +235,8 @@ function changeSkin(val) {
 //This changes the size of the component by adjusting the radius and width/height;
 function changeSize(val) {
     var s = String(val).split(",");
-    viz_container.transition().duration(300).style('width', s[0] + 'px').style('height', /*s[1] + */'');
-    viz.width(s[0]).height(s[1]*.8).update();
+    viz_container.transition().duration(300).style('width', s[0] + 'px').style('height', s[0] - 'px');
+    viz.width(s[0]).height(s[1]*0.8).update();
 }
 
 //This sets the same value for each radial progress

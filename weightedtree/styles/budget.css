@@ -43,12 +43,12 @@ div.container {
 }
 
 .tile {
-    font-family:Raleway;
+    font-family:Hind;
     font-weight:300;
 }
 
 .heading {
-    font-family:Raleway;
+    font-family:Hind;
     font-weight:300;
 }
 
@@ -73,7 +73,7 @@ div.container {
 }
 
 .vizuly {
-    font-family: "Raleway"
+    font-family: "Hind"
 }
 
 svg {
@@ -96,7 +96,7 @@ svg {
 }
 
 .my-tip {
-    font-family:Raleway;
+    font-family:Hind;
     font-weight:300;
     text-anchor:middle;
 }
@@ -213,13 +213,19 @@ i.mdi-navigation-menu:hover {
 }
 
 #myDataTip {
-    font-family:Raleway;
+    font-family:Hind;
     line-height: 18px;
 }
 
 #branding {
     background-color: #623880;
     min-height: 40px;
+    height: 40px;
+    font-family: 'Hind', Verdana, Helvetica, sans-serif;
+}
+
+#branding h1 {
+    color: white;
     height: 40px;
     font: 300 20px/40px 'Hind', Verdana, Helvetica, sans-serif;
 }

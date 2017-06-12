@@ -42,8 +42,8 @@ var theme;
 var data = {};
 
 // stores the currently selected value field
-var valueField = "Federal";
-var valueFields = ["Federal", "State", "Local"];
+var valueField = "Budget";
+var valueFields = ["Budget", "State", "Local"];
 
 
 var formatCurrency = function (d) { if (isNaN(d)) d = 0; return "£" + d3.format(",.2f")(d) + " Million"; };
@@ -159,7 +159,7 @@ function initialize() {
 
 
 function trimLabel(label) {
-   return (String(label).length > 35) ? String(label).substr(0, 17) + "..." : label;
+   return (String(label).length > 45) ? String(label).substr(0, 30) + "..." : label;
 }
 
 

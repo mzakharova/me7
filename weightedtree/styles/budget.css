@@ -228,6 +228,8 @@ i.mdi-navigation-menu:hover {
     color: white;
     height: 40px;
     font: 300 20px/40px 'Hind', Verdana, Helvetica, sans-serif;
+    padding: 0 0 0 10px;
+    margin: 0;
 }
 
 #logo span {

@@ -226,7 +226,7 @@ i.mdi-navigation-menu:hover {
 
 #logo span {
     visibility: hidden;
-    background-image: url('../lib/styles/img/SU-logo.png');
+    background-image: url('../../lib/styles/img/SU-logo.png');
     background-repeat: none;
     display: block;
     height: 185px;

@@ -216,3 +216,25 @@ i.mdi-navigation-menu:hover {
     font-family:Raleway;
     line-height: 18px;
 }
+
+#branding {
+    background-color: #623880;
+    min-height: 40px;
+    height: 40px;
+    font: 300 20px/40px 'Hind', Verdana, Helvetica, sans-serif;
+}
+
+#logo span {
+    visibility: hidden;
+    background-image: url('../lib/styles/img/SU-logo.png');
+    background-repeat: none;
+    display: block;
+    height: 185px;
+    width: 30px;
+}
+
+#logo {
+    float: right;
+    line-height: 40px;
+    vertical-align: middle;
+}

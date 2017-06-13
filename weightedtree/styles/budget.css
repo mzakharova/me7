@@ -237,6 +237,8 @@ i.mdi-navigation-menu:hover {
 #branding h1.org {
     font-weight: 400;
     font-size: 12px;
+    color: #fff;
+    line-height: normal;
 }
 
 #branding span.heavy {
@@ -254,4 +256,7 @@ i.mdi-navigation-menu:hover {
 #branding .vcard {
     float: right;
     vertical-align: middle;
+    color: #fff;
+    padding: 0;
+    margin: 0;
 }

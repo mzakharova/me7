@@ -200,9 +200,10 @@ function onMeasure() {
 function onMouseOver(e,d,i) {
     if (d == data) return;
     var rect = e.getBoundingClientRect();
+    var scroll = document.documentElement.scrollTop;
     if (d.target) d = d.target; //This if for link elements
-    createDataTip(rect.left, rect.top + window.scrollY, (d.key || (d['Level' + d.depth])), formatCurrency(d["agg_" + valueField]),valueField);
-    console.log(window.scrollY);
+    createDataTip(rect.left, rect.top + scroll, (d.key || (d['Level' + d.depth])), formatCurrency(d["agg_" + valueField]),valueField);
+    console.log(scroll);
 
 }
 

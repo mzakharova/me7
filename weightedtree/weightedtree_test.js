@@ -202,7 +202,7 @@ function onMouseOver(e,d,i) {
     var rect = e.getBoundingClientRect();
     if (d.target) d = d.target; //This if for link elements
     createDataTip(rect.left, rect.top + window.scrollY, (d.key || (d['Level' + d.depth])), formatCurrency(d["agg_" + valueField]),valueField);
-
+    console.log(window.scrollY);
 
 }
 

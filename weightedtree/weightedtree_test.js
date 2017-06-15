@@ -45,8 +45,7 @@ var data = {};
 var valueField = "Budget";
 var valueFields = ["Budget", "State", "Local"];
 
-
-var formatCurrency = function (d) { if (isNaN(d)) d = 0; return "£ " + d3.format(",.1f")(d) + " million"; };
+var formatCurrency = function (d) { if (isNaN(d)) d = 0; return "£" + d3.format(",")(d) + " Million"; };
 
 function loadData() {
 
@@ -200,9 +199,9 @@ function onMeasure() {
 function onMouseOver(e,d,i) {
     if (d == data) return;
     var rect = e.getBoundingClientRect();
+    var scroll = window.scrollY || document.documentElement.scrollTop;
     if (d.target) d = d.target; //This if for link elements
-    createDataTip(rect.left, rect.top, (d.key || (d['Level' + d.depth])), formatCurrency(d["agg_" + valueField]),valueField);
-
+    createDataTip(rect.left, rect.top + scroll, (d.key || (d['Level' + d.depth])), formatCurrency(d["agg_" + valueField]),valueField);
 
 }
 

@@ -237,9 +237,9 @@ i.mdi-navigation-menu:hover {
 
 #branding h1.org {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     color: #fff;
-    line-height: normal;
+    line-height: 100%;
     margin-bottom: 0;
 }
 

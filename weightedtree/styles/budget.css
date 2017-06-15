@@ -196,7 +196,7 @@ div.tooltip {
     color:#333;
     text-align: left;
     font-size: 15px;
-    font-style: italic;
+    /* font-style: italic; */
     font-family: "Lusitana", serif;
     /*  width:170px;*/
     text-align:center;

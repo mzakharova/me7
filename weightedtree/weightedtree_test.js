@@ -50,7 +50,7 @@ var formatCurrency = function (d) { if (isNaN(d)) d = 0; return "£" + d3.format
 
 function loadData() {
 
-    d3.csv("data/weightedtree_federal_budget.csv", function (csv) {
+    d3.csv("data/main_estimates_2017.csv", function (csv) {
 
         data.values=prepData(csv);
 

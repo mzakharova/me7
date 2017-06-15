@@ -81,6 +81,9 @@ svg {
     shape-rendering: crispEdges;
 }
 
+svg.vz-weighted_tree-viz {
+    font-family: "Lusitana", serif;
+
 .vz-data-point {
     fill-opacity:1;
     stroke-width: 1px;

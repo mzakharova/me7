@@ -67,13 +67,13 @@ div.container {
 }
 
 .title {
-    font-family: "Roboto";
+    font-family: "Lusitana", serif;
     font-size: 20px;
     font-weight:200;
 }
 
 .vizuly {
-    font-family: "Hind"
+    font-family: "Hind", sans-serif;
 }
 
 svg {
@@ -115,16 +115,16 @@ svg {
 .input-field {
     margin-left: 0px;
     padding-bottom: 5px;
-    font-family: "Roboto";
+    font-family: "Lusitana", serif;
 }
 
 .dropdown-content {
-    font-family:"Roboto";
+    font-family:"Lusitana", serif;
     font-size:.5em;
 }
 
 .dropdown-content li span {
-    font-family:"Roboto";
+    font-family:"Lusitana", serif;
     font-size:1.75em;
 }
 
@@ -153,7 +153,7 @@ div.tooltip {
     width: 400px;
     padding: 10px;
     border: 1px solid #D5D5D5;
-    font-family: arial,helvetica,sans-serif;
+    font-family: "Hind",Verdana,Helvetica,sans-serif;
     font-size: 1.1em;
     color: #333;
     padding: 10px;
@@ -197,7 +197,7 @@ div.tooltip {
     text-align: left;
     font-size: 15px;
     font-style: italic;
-    font-family: Georgia;
+    font-family: "Lusitana", serif;
     /*  width:170px;*/
     text-align:center;
 }

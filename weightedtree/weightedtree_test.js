@@ -45,7 +45,6 @@ var data = {};
 var valueField = "Budget";
 var valueFields = ["Budget", "State", "Local"];
 
-
 var formatCurrency = function (d) { if (isNaN(d)) d = 0; return "£" + d3.format(",")(d) + " Million"; };
 
 function loadData() {

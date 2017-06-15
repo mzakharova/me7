@@ -200,9 +200,8 @@ function onMeasure() {
 function onMouseOver(e,d,i) {
     if (d == data) return;
     var rect = e.getBoundingClientRect();
-    e.append(svg:circle);
     if (d.target) d = d.target; //This if for link elements
-    createDataTip(rect.left, rect.top, (d.key || (d['Level' + d.depth])), formatCurrency(d["agg_" + valueField]),valueField);
+    createDataTip(rect.left, rect.top + window.scrollY, (d.key || (d['Level' + d.depth])), formatCurrency(d["agg_" + valueField]),valueField);
 
 
 }

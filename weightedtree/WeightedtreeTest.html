@@ -2,24 +2,24 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Vizuly - Weighted Tree</title>
+    <title>Main Estimates 2017/18 - Scrutiny Unit</title>
 
-    <!-- We use google fonts for many of the examples, but they are not necessary -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto|Raleway:600,400,200' rel='stylesheet' type='text/css'>
+    <!-- Google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,700" rel="stylesheet">
 
-    <!-- Test container style sheets -->
-    <link rel="stylesheet" href="styles/examples.css">
+    <!-- Container style sheets -->
+    <link rel="stylesheet" href="styles/budget.css">
 
     <!-- Vizuly specific style sheets -->
     <link rel="stylesheet" href="../lib/styles/vizuly.css">
     <link rel="stylesheet" href="../lib/styles/vizuly_weightedtree.css">
 
     <!-- Supporting test container files:  Vizuly does NOT rely on these -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="../lib/styles/cssmenu.css">
+    <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+    <!--<link rel="stylesheet" href="../lib/styles/cssmenu.css">-->
     <script type="text/javascript" src="../lib/jquery-2.1.1.min.js"></script>
-    <script src="../lib/cssmenu.js"></script>
+    <!--<script src="../lib/cssmenu.js"></script>-->
 
     <!-- D3.js ... of course! -->
     <script src="lib/d3.min.js"></script>
@@ -43,6 +43,8 @@
     <script src="src/theme/weightedtree.js"></script>
 
     <!-- debug source scripts: end -->
+    
+    
     <!--
     <script src="lib/vizuly_core.min.js"></script>
 	<script src="lib/vizuly_weightedtree.min.js"></script>
@@ -53,39 +55,22 @@
 
 <body>
 
-<div id='cssmenu'>
-    <ul class="main-menu">
-        <li class='active'>
-            <a><span>Display</span><br><span class="setting"></span></a>
-            <ul class="options" callback="changeSize">
-                <li id="currentDisplay" class="selected"><a></a></li>
-                <li item_value="1000,1000"><a>1000px - 1000px</a></li>
-                <li item_value="800,600"><a>800px - 600px</a></li>
-                <li item_value="375,667"><a>375px - 667px</a></li>
-                <li item_value="320,568"><a>320px - 568px</a></li>
-            </ul>
-        </li>
-        <li class='active'><a><span>Theme </span><br><span class="setting"></span></a>
-            <ul class="options" callback="changeSkin">
-                <li item_value="None"><a>None</a></li>
-                <li item_value="Axiis" class="selected"><a>Axiis</a></li>
-            </ul>
-        </li>
-        <li class='active'><a><span class="label">Data </span><br><span class="setting"></span></a>
-          <ul class="options" callback="changeData">
-                <li item_value="0" class="selected"><a>Federal</a></li>
-                <li item_value="1"><a>State</a></li>
-                <li item_value="2"><a>Local</a></li>
-            </ul>
-        </li>
-    </ul>
+<div id='branding'>
+	<h1>Main Estimates 2017/18 <span class="heavy">BETA</span></h1>
+    <div class="vcard">
+	<h1 class="org"><span class="heavy">SCRUTINY</span> UNIT</h1>
+        <p class="note">Strengthening scrutiny through specialist support</p>
+    </div>
 </div>
-
+    
 <!-- Our main content container-->
 <div class="container" style="width:100%">
+    <div style="margin-left:0px; height:0px; width:90%; margin:0px auto; margin-bottom:40px; font-family:'Hind', Verdana, Helvetica, sans-serif; font-size:14px;">
+       <p><b>IMPORTANT</b> This is experimental. Data and/or presentation may be inaccurate.</p>
+    </div>
     <div id="viz_container" class="z-depth-3">
     </div>
-    <div style="margin-left:0px; height:0px; width:90%; margin:0px auto; margin-top:20px; font-family:Raleway; font-size:14px;">
+    <div style="margin-left:0px; height:0px; width:90%; margin:0px auto; margin-top:20px; font-family:'Hind', Verdana, Helvetica, sans-serif; font-size:14px;">
        This interactive visualisation shows how much money the Treasury has allocated to various areas of spending for 2017/18. The thicker the line, the more that is being spent.
     </div>
 </div>
@@ -118,13 +103,7 @@
                 .attr("class", "selected")
                 .html("<a>" + screenWidth + "px - " + screenHeight + "px</a>");
 
-
-        $("#cssmenu").menumaker({
-            title: "VIZULY WEIGHTED TREE",
-            format: "multitoggle"
-        });
-
-        // Set the size of our container element.
+       // Set the size of our container element.
         viz_container = d3.selectAll("#viz_container")
                 .style("width", screenWidth + "px");/*
                 .style("height", screenHeight + "px");*/

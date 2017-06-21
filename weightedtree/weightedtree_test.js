@@ -147,7 +147,7 @@ function initialize() {
 
 
     //We use this function to size the components based on the selected value from the RadiaLProgressTest.html page.
-    changeSize(d3.select("#currentDisplay").attr("item_value"));
+    changeSize("1000,1000");
 
     // Open up some of the tree branches.
     viz.toggleNode(data.values[2]);

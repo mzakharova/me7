@@ -43,12 +43,12 @@ div.container {
 }
 
 .tile {
-    font-family:Raleway;
+    font-family:Hind;
     font-weight:300;
 }
 
 .heading {
-    font-family:Raleway;
+    font-family:Hind;
     font-weight:300;
 }
 
@@ -67,18 +67,22 @@ div.container {
 }
 
 .title {
-    font-family: "Roboto";
+    font-family: "Lusitana", serif;
     font-size: 20px;
     font-weight:200;
 }
 
 .vizuly {
-    font-family: "Raleway"
+    font-family: "Hind", sans-serif;
 }
 
 svg {
     border-radius: 4px;
     shape-rendering: crispEdges;
+}
+
+svg.vz-weighted_tree-viz {
+    font-family: "Lusitana", serif;
 }
 
 .vz-data-point {
@@ -96,7 +100,7 @@ svg {
 }
 
 .my-tip {
-    font-family:Raleway;
+    font-family:Hind;
     font-weight:300;
     text-anchor:middle;
 }
@@ -115,16 +119,16 @@ svg {
 .input-field {
     margin-left: 0px;
     padding-bottom: 5px;
-    font-family: "Roboto";
+    font-family: "Lusitana", serif;
 }
 
 .dropdown-content {
-    font-family:"Roboto";
+    font-family:"Lusitana", serif;
     font-size:.5em;
 }
 
 .dropdown-content li span {
-    font-family:"Roboto";
+    font-family:"Lusitana", serif;
     font-size:1.75em;
 }
 
@@ -153,7 +157,7 @@ div.tooltip {
     width: 400px;
     padding: 10px;
     border: 1px solid #D5D5D5;
-    font-family: arial,helvetica,sans-serif;
+    font-family: "Hind",Verdana,Helvetica,sans-serif;
     font-size: 1.1em;
     color: #333;
     padding: 10px;
@@ -184,7 +188,7 @@ div.tooltip {
 }
 
 .header2 {
-    text-transform: uppercase;
+    text-transform: lowercase;
     text-align: left;
     font-size: 14px;
     margin-bottom: 2px;
@@ -196,8 +200,8 @@ div.tooltip {
     color:#333;
     text-align: left;
     font-size: 15px;
-    font-style: italic;
-    font-family: Georgia;
+    /* font-style: italic; */
+    font-family: "Lusitana", serif;
     /*  width:170px;*/
     text-align:center;
 }
@@ -213,6 +217,54 @@ i.mdi-navigation-menu:hover {
 }
 
 #myDataTip {
-    font-family:Raleway;
+    font-family:Hind;
     line-height: 18px;
+}
+
+#branding {
+    background-color: #623880;
+    min-height: 60px;
+    height: 60px;
+    font-family: 'Hind', Verdana, Helvetica, sans-serif;
+}
+
+#branding > h1 {
+    color: #fff;
+    height: 60px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 60px;
+    padding: 0 0 0 10px;
+    margin: 0;
+    float: left;
+}
+
+#branding h1.org {
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    line-height: 100%;
+    margin-bottom: 0;
+}
+
+#branding span.heavy {
+    font-weight: 700;
+}
+
+#branding p.note {
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
+}
+
+#branding .vcard {
+    float: right;
+    text-align: right;
+    vertical-align: middle;
+    color: #fff;
+    padding: 0 10px 0 0;
+    margin: 0;
 }

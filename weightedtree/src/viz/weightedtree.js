@@ -46,6 +46,7 @@ vizuly.viz.weighted_tree = function (parent) {
         "fixedSpan" : -1,           // Determines horizontal branch spacing as ratio of height - defaults to automatic adjustment
         "heightAdjust" : 40,        // HD for SU - adds height to allow for larger nodes
         "treeVerticalAdjust" : 20,  // HD for SU - moves tree down
+        "nodeScaleFactor" : 0.6,    // HD for SU - scales nodes by given factor
         "label" : function (d,i)    // Default function used to render center label
         { return d; }
     };
@@ -83,7 +84,7 @@ vizuly.viz.weighted_tree = function (parent) {
         //Set max size/2 for root node.
         if (node.depth == 0) return nodeScale.range()[1]/2;
         nodeScale.domain([minValues[node.depth],maxValues[node.depth]]);
-        return nodeScale(scope.value(node));
+        return nodeScale(scope.value(node))*scope.nodeScaleFactor;
     }
 
 

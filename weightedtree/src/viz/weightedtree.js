@@ -46,7 +46,7 @@ vizuly.viz.weighted_tree = function (parent) {
         "fixedSpan" : -1,           // Determines horizontal branch spacing as ratio of height - defaults to automatic adjustment
         "heightAdjust" : 40,        // HD for SU - adds height to allow for larger nodes
         "treeVerticalAdjust" : 20,  // HD for SU - moves tree down
-        "nodeScaleFactor" : 0.6,    // HD for SU - scales nodes by given factor
+        "nodeScaleFactor" : 1,      // HD for SU - scales nodes by given factor
         "label" : function (d,i)    // Default function used to render center label
         { return d; }
     };

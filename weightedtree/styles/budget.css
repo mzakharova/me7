@@ -14,6 +14,7 @@
 
 body {
     margin:0px;
+    font-family: "Hind", sans-serif;
 }
 
 @media only screen {
@@ -43,12 +44,10 @@ div.container {
 }
 
 .tile {
-    font-family:Hind;
     font-weight:300;
 }
 
 .heading {
-    font-family:Hind;
     font-weight:300;
 }
 
@@ -67,13 +66,11 @@ div.container {
 }
 
 .title {
-    font-family: "Lusitana", serif;
     font-size: 20px;
     font-weight:200;
 }
 
 .vizuly {
-    font-family: "Hind", sans-serif;
 }
 
 svg {
@@ -82,7 +79,6 @@ svg {
 }
 
 svg.vz-weighted_tree-viz {
-    font-family: "Lusitana", serif;
 }
 
 .vz-data-point {
@@ -100,7 +96,6 @@ svg.vz-weighted_tree-viz {
 }
 
 .my-tip {
-    font-family:Hind;
     font-weight:300;
     text-anchor:middle;
 }
@@ -119,16 +114,13 @@ svg.vz-weighted_tree-viz {
 .input-field {
     margin-left: 0px;
     padding-bottom: 5px;
-    font-family: "Lusitana", serif;
 }
 
 .dropdown-content {
-    font-family:"Lusitana", serif;
     font-size:.5em;
 }
 
 .dropdown-content li span {
-    font-family:"Lusitana", serif;
     font-size:1.75em;
 }
 
@@ -157,7 +149,6 @@ div.tooltip {
     width: 400px;
     padding: 10px;
     border: 1px solid #D5D5D5;
-    font-family: "Hind",Verdana,Helvetica,sans-serif;
     font-size: 1.1em;
     color: #333;
     padding: 10px;
@@ -201,7 +192,6 @@ div.tooltip {
     text-align: left;
     font-size: 15px;
     /* font-style: italic; */
-    font-family: "Lusitana", serif;
     /*  width:170px;*/
     text-align:center;
 }
@@ -217,20 +207,11 @@ i.mdi-navigation-menu:hover {
 }
 
 #myDataTip {
-    font-family:Hind;
     line-height: 18px;
 }
 
-#branding {
-    background-color: #623880;
-    min-height: 60px;
-    height: 60px;
-    font-family: 'Hind', Verdana, Helvetica, sans-serif;
-}
 
-#branding > h1 {
-    color: #fff;
-    height: 60px;
+h1 {
     font-weight: 300;
     font-size: 18px;
     line-height: 60px;
@@ -239,32 +220,7 @@ i.mdi-navigation-menu:hover {
     float: left;
 }
 
-#branding h1.org {
-    font-weight: 400;
-    font-size: 20px;
-    color: #fff;
-    line-height: 100%;
-    margin-bottom: 0;
-}
 
-#branding span.heavy {
+span.heavy {
     font-weight: 700;
-}
-
-#branding p.note {
-    font-size: 10px;
-    font-style: italic;
-    font-weight: 300;
-    margin: 0;
-    padding: 0;
-    line-height: 100%;
-}
-
-#branding .vcard {
-    float: right;
-    text-align: right;
-    vertical-align: middle;
-    color: #fff;
-    padding: 0 10px 0 0;
-    margin: 0;
 }

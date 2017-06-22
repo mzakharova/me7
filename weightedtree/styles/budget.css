@@ -14,6 +14,7 @@
 
 body {
     margin:0px;
+    font-family: "Hind", sans-serif;
 }
 
 @media only screen {
@@ -43,12 +44,10 @@ div.container {
 }
 
 .tile {
-    font-family:Hind;
     font-weight:300;
 }
 
 .heading {
-    font-family:Hind;
     font-weight:300;
 }
 
@@ -67,13 +66,11 @@ div.container {
 }
 
 .title {
-    font-family: "Hind", serif;
     font-size: 20px;
     font-weight:200;
 }
 
 .vizuly {
-    font-family: "Hind", sans-serif;
 }
 
 svg {
@@ -82,7 +79,6 @@ svg {
 }
 
 svg.vz-weighted_tree-viz {
-    font-family: "Hind", sans-serif;
 }
 
 .vz-data-point {
@@ -100,7 +96,6 @@ svg.vz-weighted_tree-viz {
 }
 
 .my-tip {
-    font-family:Hind;
     font-weight:300;
     text-anchor:middle;
 }
@@ -119,16 +114,13 @@ svg.vz-weighted_tree-viz {
 .input-field {
     margin-left: 0px;
     padding-bottom: 5px;
-    font-family: "Hind", serif;
 }
 
 .dropdown-content {
-    font-family:"Hind", serif;
     font-size:.5em;
 }
 
 .dropdown-content li span {
-    font-family:"Hind", serif;
     font-size:1.75em;
 }
 
@@ -157,7 +149,6 @@ div.tooltip {
     width: 400px;
     padding: 10px;
     border: 1px solid #D5D5D5;
-    font-family: "Hind",Verdana,Helvetica,sans-serif;
     font-size: 1.1em;
     color: #333;
     padding: 10px;
@@ -201,7 +192,6 @@ div.tooltip {
     text-align: left;
     font-size: 15px;
     /* font-style: italic; */
-    font-family: "Hind", serif;
     /*  width:170px;*/
     text-align:center;
 }
@@ -217,7 +207,6 @@ i.mdi-navigation-menu:hover {
 }
 
 #myDataTip {
-    font-family:Hind;
     line-height: 18px;
 }
 

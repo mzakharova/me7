@@ -261,7 +261,7 @@ vizuly.viz.weighted_tree = function (parent) {
             .on("mouseover", function (d,i) { scope.dispatch.mouseover(this,d,i) })
             .on("mouseout", function (d,i) { scope.dispatch.mouseout(this,d,i) });
 
-        nodeEnter.append("circle")
+        var nodeCircle = nodeEnter.append("circle")
             .attr("class",".vz-weighted_tree-node-circle")
             .attr("r", 1e-6)
             .style("cursor","pointer");
@@ -287,7 +287,7 @@ vizuly.viz.weighted_tree = function (parent) {
                 var o = {x: x, y: y};
                 return diagonal({source: o, target: o});
             })
-            .on("click",  function (d,i) { scope.dispatch.click(this,d,i) })
+            .on("click",  function (d,i) { scope.dispatch.click(nodeCircle,d,i) })
             .on("mouseover", function (d,i) { scope.dispatch.mouseover(this,d,i) })
             .on("mouseout", function (d,i) { scope.dispatch.mouseout(this,d,i) })
             .style("stroke-linecap", "round")

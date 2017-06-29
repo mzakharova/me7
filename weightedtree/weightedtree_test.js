@@ -213,6 +213,7 @@ function onMouseOut(e,d,i) {
 
 //We can capture click events and respond to them
 function onClick(g,d,i) {
+    if (d.target) d = d.target; //This if for link elements
     viz.toggleNode(d);
 }
 

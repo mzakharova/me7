@@ -45,7 +45,7 @@ var data = {};
 var valueField = "Budget";
 var valueFields = ["Budget", "State", "Local"];
 
-var formatCurrency = function (d) { if (isNaN(d)) d = 0; return "£" + d3.format(",")(d) + " Million"; };
+var formatCurrency = function (d) { if (isNaN(d)) d = 0; return "£" + d3.format(",.1f")(d) + " Million"; };
 
 function loadData() {
 
@@ -213,6 +213,7 @@ function onMouseOut(e,d,i) {
 
 //We can capture click events and respond to them
 function onClick(g,d,i) {
+    if (d.target) d = d.target; //This if for link elements
     viz.toggleNode(d);
 }
 

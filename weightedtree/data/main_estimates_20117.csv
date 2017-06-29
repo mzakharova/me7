@@ -63,15 +63,14 @@ Program Expenses,Public Services,Education,Investment,Administration & central f
 ,Intl relations & Defence,Exiting the EU,Day to day Spending,Exiting the European Union,101.04,b,,,,101.04
 ,Intl relations & Defence,Exiting the EU,Investment,Exiting the European Union,0.1,b,,,,0.1
 ,Intl relations & Defence,Defence,Day to day Spending,Equipment and Infrastructure,20831.835,b,,,,20831.835
+,Intl relations & Defence,Defence,Day to day Spending,Service Personnel,9482.545,b,,,,9482.545
 ,Intl relations & Defence,Defence,Day to day Spending,Civilian Personnel,1778.762,b,,,,1778.762
 ,Intl relations & Defence,Defence,Day to day Spending,Administration Costs,1541,b,,,,1541
 ,Intl relations & Defence,Defence,Day to day Spending,Operations Costs,234.6,b,,,,234.6
 ,Intl relations & Defence,Defence,Day to day Spending,Other,2166.483,b,,,,2166.483
-,Intl relations & Defence,Defence,Investment,Single Use Military Equipment,3971.144,b,,,,3971.144
-,Intl relations & Defence,Defence,Investment,Other Capital & Estate (net),2461.777,b,,,,2461.777
-,Intl relations & Defence,Defence,Investment,Research and Development,1921,b,,,,1921
-,Intl relations & Defence,Defence,Investment,Operations Costs,80,b,,,,80
-,Intl relations & Defence,Defence,Investment,Other,95.771,b,,,,95.771
+,Intl relations & Defence,Defence,Investment,Single Use Military Equipment,4051.144,b,,,,4051.144
+,Intl relations & Defence,Defence,Investment,Research and development,1921,b,,,,1921
+,Intl relations & Defence,Defence,Investment,Other,2557.548,b,,,,2557.548
 ,Intl relations & Defence,Foreign Affairs,Day to day Spending,FCO running costs,799.242,b,,,,799.242
 ,Intl relations & Defence,Foreign Affairs,Day to day Spending,Programme and grants,363.12,b,,,,363.12
 ,Intl relations & Defence,Foreign Affairs,Day to day Spending,Conflict prevention,435.858,b,,,,435.858
@@ -151,23 +150,23 @@ Construction  Hospitals  Other (Disc. 2005) (F38),Environment & infrastructure,"
 Other Capital Outlay  Hospitals (G36),Environment & infrastructure,"Environment, food & rural",Investment,Support and develop farming,7.352,b,,,,7.352
 ,Environment & infrastructure,"Environment, food & rural",Investment,Other,133.811,b,,,,133.811
 Other Capital Outlay  Hospitals  Other (Disc. 2005) (G38),Environment & infrastructure,Transport,Day to day Spending,Railways (net),7634.967,b,,,,7634.967
-Salaries and Expenses,Environment & infrastructure,Transport,Day to day Spending,Roads (net),2559.64,b,,,,2559.64
-Salaries and Expenses,Environment & infrastructure,Transport,Day to day Spending,"Aviation, maritime and security (net)",414.61,b,,,,414.61
+Salaries and Expenses,Environment & infrastructure,Transport,Day to day Spending,Roads (net),2792.268,b,,,,2792.268
+Salaries and Expenses,Environment & infrastructure,Transport,Day to day Spending,Funding ALBs (net),607.571,b,,,,607.571
 Salaries and Expenses,Environment & infrastructure,Transport,Day to day Spending,Local Authority Transport,347.407,b,,,,347.407
 Salaries and Expenses,Environment & infrastructure,Transport,Day to day Spending,Research and support,326.539,b,,,,326.539
 Salaries and Expenses,Environment & infrastructure,Transport,Day to day Spending,London,256.615,b,,,,256.615
 Salaries and Expenses,Environment & infrastructure,Transport,Day to day Spending,Buses,253.891,b,,,,253.891
-Salaries and Expenses,Environment & infrastructure,Transport,Day to day Spending,Funding ALBs (net),246.437,b,,,,246.437
-Intergovernmental Revenue from Federal  Environmental Health (NEW for 2007) (B43),Environment & infrastructure,Transport,Day to day Spending,Sustainable Travel,88.802,b,,,,88.802
+Salaries and Expenses,Environment & infrastructure,Transport,Day to day Spending,Sustainable Travel,88.802,b,,,,88.802
+Intergovernmental Revenue from Federal  Environmental Health (NEW for 2007) (B43),Environment & infrastructure,Transport,Day to day Spending,"Aviation, maritime and security (net)",53.476,b,,,,53.476
 Current Operations  Environmental Health (NEW for 2007) (E27),Environment & infrastructure,Transport,Day to day Spending,Transport Development Fund,47,b,,,,47
 Construction  Environmental Health (NEW for 2007) (F27),Environment & infrastructure,Transport,Day to day Spending,Unallocated Provision,41.467,b,,,,41.467
 Other Capital Outlay  Environmental Health (NEW for 2007) (G27),Environment & infrastructure,Transport,Day to day Spending,High Speed Two,32.961,b,,,,32.961
-,Environment & infrastructure,Transport,Investment,Railways,6085.427,b,,,,6085.427
-,Environment & infrastructure,Transport,Investment,Roads (net),2183.175,b,,,,2183.175
+,Environment & infrastructure,Transport,Investment,Roads (net),2186.981,b,,,,2186.981
 ,Environment & infrastructure,Transport,Investment,High Speed Two,1813.543,b,,,,1813.543
 ,Environment & infrastructure,Transport,Investment,Local Authority transport,1807.559,b,,,,1807.559
 ,Environment & infrastructure,Transport,Investment,Funding ALBs,659.582,b,,,,659.582
 ,Environment & infrastructure,Transport,Investment,National Productivity Investment Fund,375,b,,,,375
+,Environment & infrastructure,Transport,Investment,Railways,150.976,b,,,,150.976
 ,Environment & infrastructure,Transport,Investment,Sustainable Travel,110.5,b,,,,110.5
 ,Environment & infrastructure,Transport,Investment,Research and support,42.853,b,,,,42.853
 Payment to the PatientCentered Outcomes Research Trust Fund,Environment & infrastructure,Transport,Investment,"Aviation, maritime and security (net)",30.339,b,,,,30.339
@@ -192,11 +191,11 @@ Employees and Retired Employees Health Benefits Funds,Benefits and Pensions,Reve
 United Mine Workers of America 1992 Benefit Plan,Benefits and Pensions,Revenue and customs,Day to day Spending,Payments of rates to local authorities,93,b,,,,93
 ,Benefits and Pensions,Revenue and customs,Day to day Spending,Other reliefs and allowances,3524.598,b,,,,3524.598
 ,Benefits and Pensions,Revenue and customs,Day to day Spending,Other,1.99,b,,,,1.99
-Transfers from Abandoned Mine Reclamation Fund,Devolved Administrations,Scotland,Spending,Cash grant,16744.501,b,,,,16744.501
-Federal Payment to United Mine Workers of America Combined Benefit Fund,Devolved Administrations,Scotland,Spending,Payover of income tax to Scotland,11829,b,,,,11829
-United Mine Workers of America Combined Benefit Fund,Devolved Administrations,Scotland,Spending,Scotland Office,9.35,b,,,,9.35
-United Mine Workers of America 1993 Benefit Plan,Devolved Administrations,Wales,Spending,Cash grant,14317.949,b,,,,14317.949
-"Maternal, Infant, and Early Childhood Home Visiting Programs",Devolved Administrations,Wales,Spending,Wales Office,4.59,b,,,,4.59
-Health Resources and Services,Devolved Administrations,Northern Ireland,Spending,Cash grant,15665.6,b,,,,15665.6
-Health Resources and Services,Devolved Administrations,Northern Ireland,Spending,N. Ireland Office,22.81,b,,,,22.81
+Transfers from Abandoned Mine Reclamation Fund,Devolved Administrations,Scotland,Day to day Spending,Cash grant,16744.501,b,,,,16744.501
+Federal Payment to United Mine Workers of America Combined Benefit Fund,Devolved Administrations,Scotland,Day to day Spending,Payover of income tax to Scotland,11829,b,,,,11829
+United Mine Workers of America Combined Benefit Fund,Devolved Administrations,Scotland,Day to day Spending,Scotland Office,9.35,b,,,,9.35
+United Mine Workers of America 1993 Benefit Plan,Devolved Administrations,Wales,Day to day Spending,Cash grant,14317.949,b,,,,14317.949
+"Maternal, Infant, and Early Childhood Home Visiting Programs",Devolved Administrations,Wales,Day to day Spending,Wales Office,4.59,b,,,,4.59
+Health Resources and Services,Devolved Administrations,Northern Ireland,Day to day Spending,Cash grant,15665.6,b,,,,15665.6
+Health Resources and Services,Devolved Administrations,Northern Ireland,Day to day Spending,N. Ireland Office,22.81,b,,,,22.81
 ,,Level2,Level3,Level4,,,,,,

@@ -290,7 +290,8 @@ vizuly.viz.weighted_tree = function (parent) {
             .on("click",  function (d,i) { scope.dispatch.click(this,d,i) })
             .on("mouseover", function (d,i) { scope.dispatch.mouseover(this,d,i) })
             .on("mouseout", function (d,i) { scope.dispatch.mouseout(this,d,i) })
-            .style("stroke-linecap", "round");
+            .style("stroke-linecap", "round")
+            .style("cursor","pointer");
 
 
         //Before we fire transition we hit update so any external styles can take effect before we transition.

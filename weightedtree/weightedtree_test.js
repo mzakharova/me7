@@ -49,7 +49,7 @@ var formatCurrency = function (d) { if (isNaN(d)) d = 0; return "£" + d3.format
 
 function loadData() {
 
-    d3.csv("data/main_estimates_2019_chart.csv", function (csv) {
+    d3.csv("data/Main_estimates_2019_chart.csv", function (csv) {
 
         data.values=prepData(csv);
 
